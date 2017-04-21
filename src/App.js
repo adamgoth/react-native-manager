@@ -6,7 +6,7 @@ import firebase from 'firebase';
 import reducers from './reducers';
 
 class App extends Component {
-  componentWillMount(){
+  componentWillMount() {
   const config = {
     apiKey: 'AIzaSyBj4oGmzDynISEHtnX33Pzub9mOQXDvUJU',
     authDomain: 'react-native-manager-243b3.firebaseapp.com',
