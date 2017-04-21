@@ -8,12 +8,12 @@ import reducers from './reducers';
 class App extends Component {
   componentWillMount() {
   const config = {
-    apiKey: 'AIzaSyBj4oGmzDynISEHtnX33Pzub9mOQXDvUJU',
-    authDomain: 'react-native-manager-243b3.firebaseapp.com',
-    databaseURL: 'https://react-native-manager-243b3.firebaseio.com',
-    projectId: 'react-native-manager-243b3',
-    storageBucket: 'react-native-manager-243b3.appspot.com',
-    messagingSenderId: '697680890499'
+      apiKey: 'AIzaSyBj4oGmzDynISEHtnX33Pzub9mOQXDvUJU',
+      authDomain: 'react-native-manager-243b3.firebaseapp.com',
+      databaseURL: 'https://react-native-manager-243b3.firebaseio.com',
+      projectId: 'react-native-manager-243b3',
+      storageBucket: 'react-native-manager-243b3.appspot.com',
+      messagingSenderId: '697680890499'
     };
 
     firebase.initializeApp(config);
